@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btrelativelayout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+
+    TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Address"
+        android:id="@+id/deviceaddresslbl"
+        android:layout_below="@+id/devicenamelbl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+    TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Device Strength"
+        android:id="@+id/devicestrengthlbl"
+        android:layout_below="@+id/deviceaddresslbl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+]]>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devicename"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceaddress"
+        android:layout_below="@+id/devicename"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devicestrength"
+        android:layout_below="@+id/deviceaddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceaveragesignal"
+        android:layout_below="@+id/devicestrength"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
